@@ -11,6 +11,8 @@ export const GET = async (data) => {
         return data;
     } catch (error) {
         console.error("Error en la operación GET:", error);
+    } finally {
+        console.log("Operación GET finalizada.");
     }
 }
 
@@ -28,6 +30,8 @@ export const POST = async (data) => {
             .then(data => console.log(data));
     } catch (error) {
         console.error("Error en la operación POST:", error);
+    } finally {
+        console.log("Operación POST finalizada.");
     }
 }
 
@@ -42,5 +46,7 @@ export const DELETE = async (data) => {
             .then(data => console.log(data));
     } catch (error) {
         console.error("Error en la operación DELETE:", error);
+    } finally {
+        console.log("Operación DELETE finalizada.");
     }
 }
