@@ -11,7 +11,7 @@ const main = () => {
         "price": (price && !isNaN(price)) ? parseFloat(price).toFixed(2) : price,
         "category": (category && isNaN(category)) ? category.toLowerCase() : category
     };
-    console.log(`Método: ${input.method}, Operación: ${input.operation}, Artículo: ${input.article}, Precio: ${input.price}, Categoría: ${input.category}`);
+    console.log(`Prompt => {Método: ${input.method}, Operación: ${input.operation}, Artículo: ${input.article}, Precio: ${input.price}, Categoría: ${input.category}}`);
     switch (input.method) {
         case "GET":     GET(input); break;
         case "POST":    POST(input); break;

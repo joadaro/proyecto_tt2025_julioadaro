@@ -1,7 +1,7 @@
 {
   "name": "proyecto_talento_tech_2025_julioadaro",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.1.0",
+  "description": "Proyecto Pre-Entrega Talento Tech 2025",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,7 +13,11 @@
     "2025",
     "julioadaro"
   ],
-  "author": "Julio Oscar Adaro",
+  "author": "Julio Oscar Adaro <joadaro@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joadaro/proyecto_tt2025_julioadaro.git"
+  },
   "license": "ISC",
   "type": "module"
 }

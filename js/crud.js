@@ -8,7 +8,7 @@ export const GET = async (input) => {
     if (validate(input)) {
         console.log("Operación GET: Obteniendo datos...");
         const index = input.operation.split("/")[1];
-        let API_REQUEST = !index ? API_URL : API_URL + `/${index}`;
+        let API_REQUEST = !index ? API_URL : `${API_URL}/${index}`;
         // Simulando una solicitud GET
         try {
             const response = await fetch(API_REQUEST);
